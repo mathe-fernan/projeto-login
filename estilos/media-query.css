@@ -23,15 +23,21 @@
         width: 950px;
     }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     div#form{
-        float: right;
+        float: left;
         width: 50%;
     }
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c52 );
+    }
+    div#form h1{
+        font-size:2em;
+    }
+    div#form p{
+        font-size: 1.4em;
     }
 }
