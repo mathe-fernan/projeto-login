@@ -36,11 +36,15 @@ section#login{
     transform: translate(-50%, -50%);
 
     overflow: hidden;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 div#imagem{
-    background: #5f2c52 url(../imagens/17341.jpg);
+    background: #5f2c52 url(../imagens/pexels-pavel-danilyuk-6716301.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 
     display: block;
     height: 200px;
