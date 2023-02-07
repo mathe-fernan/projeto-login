@@ -33,10 +33,11 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
+
     transform: translate(-50%, -50%);
 
     overflow: hidden;
-
+    transform: translate(-50%, -50%); 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
